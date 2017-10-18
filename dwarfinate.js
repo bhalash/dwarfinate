@@ -14,15 +14,15 @@ const dwarfNames = require('./names');
  */
 
 function getNameLetters(name) {
-    const [first] = name.toLowerCase().split('').slice(0, -1);
+    const [first] = name.toLowerCase().split('').slice(0, 1);
     const [last] = name.toLowerCase().split('').slice(-1);
-
     return [first, last];
 }
 
 /**
  * Are all passed names valid? (string of length > 0);
  *
+ * @private
  * @param {string[]} names - Names to validate.
  * @return {boolean}
  */
@@ -46,7 +46,7 @@ function dwarfName(name, kind = 'first') {
 }
 
 /**
- * Dwarfinate someone's full name.
+ * Dwarfinate someone's first and last names.
  *
  * @example
  *
@@ -55,13 +55,14 @@ function dwarfName(name, kind = 'first') {
  *
  * @public
  * @param {string} first - First name to dwarfinate.
- * @return {string} name - Surname to dwarfinate.
+ * @param {string} last - Last name to dwarfinate.
+ * @return {string} - Joined dwarfinated name.
  */
 
-module.exports = function dwarfinate(firstName, lastName) {
-    if (validNames(firstName, lastName)) {
-        return [dwarfName(firstName, 'first'), dwarfName(lastName, 'last')].join(' ');
+module.exports = function dwarfinate(first, last) {
+    if (validNames(first, last)) {
+        return [dwarfName(first, 'first'), dwarfName(last, 'last')].join(' ');
     } else {
-        throw `Invalid names "${firstName}" and "${lastName}" given!`;
+        throw `Invalid names "${first}" and "${last}" given!`;
     }
 };
