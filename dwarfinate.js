@@ -14,9 +14,10 @@ const dwarfNames = require('./names');
  */
 
 function getNameLetters(name) {
-    const [first] = name.toLowerCase().split('').slice(0, 1);
-    const [last] = name.toLowerCase().split('').slice(-1);
-    return [first, last];
+    return [
+        ...name.toLowerCase().split('').slice(0, 1),
+        ...name.toLowerCase().split('').slice(-1)
+    ];
 }
 
 /**
@@ -32,7 +33,7 @@ function validNames(...names) {
 }
 
 /**
- * Dwarfinate a name  of the given kind (first name or last name).
+ * Dwarfinate a name of the given kind (first name or last name).
  *
  * @private
  * @param {string} name - Name to dwarfinate.
