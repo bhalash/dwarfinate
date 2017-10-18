@@ -14,10 +14,8 @@ const dwarfNames = require('./names');
  */
 
 function getNameLetters(name) {
-    return [
-        ...name.toLowerCase().split('').slice(0, 1),
-        ...name.toLowerCase().split('').slice(-1)
-    ];
+    const letters = name.toLowerCase().split('');
+    return letters.slice(0, 1).concat(letters.slice(-1));
 }
 
 /**
