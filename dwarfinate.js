@@ -42,7 +42,7 @@ function validNames(...names) {
 
 function dwarfName(name, kind = 'first') {
     const [first, last] = getNameLetters(name);
-    return [dwarfNames[kind].start[first], dwarfNames[kind].end[last]].join('');
+    return dwarfNames[kind].start[first] + dwarfNames[kind].end[last];
 }
 
 /**
@@ -61,7 +61,7 @@ function dwarfName(name, kind = 'first') {
 
 module.exports = function dwarfinate(first, last) {
     if (validNames(first, last)) {
-        return [dwarfName(first, 'first'), dwarfName(last, 'last')].join(' ');
+        return `${dwarfName(first, 'first')} ${dwarfName(last, 'last')}`;
     } else {
         throw `Invalid names "${first}" and "${last}" given!`;
     }
