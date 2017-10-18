@@ -32,7 +32,7 @@ function validNames(...names) {
 }
 
 /**
- * Dwarfinate a name name of the given kind (first name or last name).
+ * Dwarfinate a name  of the given kind (first name or last name).
  *
  * @private
  * @param {string} name - Name to dwarfinate.
