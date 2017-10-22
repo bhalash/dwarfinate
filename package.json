@@ -1,11 +1,25 @@
 {
-  "name": "dwarfinator",
+  "name": "dwarfinate",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://travis-ci.org/bhalash/t9e.svg?branch=master)](https://travis-ci.org/bhalash/t9e) [![devDependencies Status](https://david-dm.org/bhalash/t9e/dev-status.png)](https://david-dm.org/bhalash/t9e?type=dev)",
   "main": "dwarfinate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mark Grealish <mark@bhalash.com> (https://www.bhalash.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhalash/dwarfinate.git"
+  },
+  "keywords": [
+    "DWARF",
+    "DWARF",
+    "DWARF",
+    "DWARF"
+  ],
+  "bugs": {
+    "url": "https://github.com/bhalash/dwarfinate/issues"
+  },
+  "homepage": "https://github.com/bhalash/dwarfinate#readme"
 }
