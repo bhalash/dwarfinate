@@ -1,4 +1,6 @@
 # DWARFINATE
+![DWARFINATE][1]
+
 DWATFINATE your name. Are you a normal, boring human? Have you ever wanted to spice up your boring existence? Well now's your chance? Why be Linus Torvalds when you could be DURVI DOOMGRIP, SLAYER OF ORCS?
 
 ## Why?
