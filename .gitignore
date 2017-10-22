@@ -1,0 +1,10 @@
+# OS and Editor Junk
+
+**/*.swp
+**/*lock.json
+**/.DS_STORE
+**/tags
+
+# Folders
+
+/node_modules
