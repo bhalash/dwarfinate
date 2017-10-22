@@ -25,4 +25,4 @@ Why what? Oh, okay, I found it too much work to read [off the chart][2].
 Copyright (c) 2017 [Mark Grealish][1]. See [LICENSE](LICENSE) for details.
 
 [1]: https://www.bhalash.com "Mark Grealish"
-[2]: dwarf_names.png
+[2]: dwarf_names.jpg
