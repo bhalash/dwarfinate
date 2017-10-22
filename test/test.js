@@ -30,11 +30,8 @@ tape('dwarfinate()', function(assert) {
     samples.forEach(sample => {
         const input = sample[0].split(' ');
         const output = sample[1];
+        const msg = 'Actual and sample output should match';
 
-        assert.equal(
-            dwarfinate(...input),
-            output,
-            'Actual and sample output should match'
-        );
+        assert.equal(dwarfinate(...input), output, msg);
     });
 });
