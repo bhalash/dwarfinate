@@ -4,7 +4,7 @@
   "description": "[![Build Status](https://travis-ci.org/bhalash/t9e.svg?branch=master)](https://travis-ci.org/bhalash/t9e) [![devDependencies Status](https://david-dm.org/bhalash/t9e/dev-status.png)](https://david-dm.org/bhalash/t9e?type=dev)",
   "main": "dwarfinate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --harmony test/test.js"
   },
   "author": "Mark Grealish <mark@bhalash.com> (https://www.bhalash.com)",
   "license": "MIT",
