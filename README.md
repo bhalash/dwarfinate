@@ -20,7 +20,7 @@ Why what? Oh, okay, I found it too much work to read [off the chart][2].
 ## Usage
 
     conse dwarfinate = require('dwarfinate');
-    dwarfinate('Garrett', 'Parrott'); // 'Marvi Goldgrip'
+    dwarfinate('Garrett', 'Parrot'); // 'Marvi Goldgrip'
 
 ## Copyright
 
