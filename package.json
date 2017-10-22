@@ -1,7 +1,7 @@
 {
   "name": "dwarfinate",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/bhalash/t9e.svg?branch=master)](https://travis-ci.org/bhalash/t9e) [![devDependencies Status](https://david-dm.org/bhalash/t9e/dev-status.png)](https://david-dm.org/bhalash/t9e?type=dev)",
+  "description": "Find out your dwarf name!",
   "main": "dwarfinate.js",
   "scripts": {
     "test": "node --harmony test/test.js"
