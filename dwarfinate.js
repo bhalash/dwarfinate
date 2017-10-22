@@ -49,7 +49,7 @@ function dwarfName(name, kind = 'first') {
  *
  * @example
  *
- *  'Garrett Parrott' => 'Marvi Goldgrip'
+ *  'Garrett Parrot' => 'Marvi Goldgrip'
  *  'Caira Doo' => 'Urdar Ironstrike'
  *
  * @public

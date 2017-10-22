@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bhalash/dwarfinate.svg?branch=master)](https://travis-ci.org/bhalash/dwarfinate)
+
 # DWARFINATE
 ![DWARFINATE][2]
 
